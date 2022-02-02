@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light nav-color">
+
+        <div class="container-fluid">
+
+                
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mx-auto ">
+                    
+                    <li class="nav-item active ">
+                        <a class="nav-link px-2 menu-lok" href="#">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link px-2 menu-lok" href="#">HEADGEAR<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link px-2 menu-lok" href="#">VEST<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link px-2 menu-lok" href="#">BOOTS<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link px-2 menu-lok" href="#">ACCESSORIES<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu-lok" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                          SERVICES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Customize</a>
+                            <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Membership</a>
+                        
+                        </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+
+                </ul>
+                    
+
+            </div>
+
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+                <div class="card px-5 py-5 h-100" id="form1">
+                    <form action="" method="post">
+                        <div class="form-data">
+                            <h4 class="mb-5">Create Account</h4>
+                            <div class="forms-input mb-4">
+                                <input autocomplete="off" class="w-100" type="text" name="username" required placeholder="Enter username">
+                            </div>
+                            <div class="forms-input mb-4">
+                                <input autocomplete="off" class="w-100" type="password" name="password" required placeholder="Enter password">
+                            </div>
+                            <div class="forms-input mb-4">
+                                <input autocomplete="off" class="w-100" type="password" name="retype-password" required placeholder="Re-type password">
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-dark w-100">Create Account</button>
+                            </div>
+                            <h5 class="mt-5">Already have an account?</h5>
+                            <div class="mb-3">
+                                <button type="submit" class="btn btn-light w-100">Sign In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php
+        include_once 'footer.php';
+    ?>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
