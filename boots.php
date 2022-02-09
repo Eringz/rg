@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>BOOTS</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<style type="text/css">
-		<?php
-			include 'css/style.css';
-		?>
-	</style>
-</head>
-<body>
+
     <?php
         include_once 'header.php'
     ?>
@@ -415,7 +402,7 @@
             </div>
 		</div>
     </div>
-    
+</div>
 
     <br>
     <br>
@@ -425,5 +412,3 @@
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-</body>
-</html>

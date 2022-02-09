@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>About Us</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<style type="text/css">
-		<?php
-			include 'css/style.css';
-		?>
-	</style>
-</head>
-<body>
+
 <?php
         include_once 'header.php';
     ?>
 <br>
 <div class="containerfluid">
     <div class="row mt-5 pt-4">
-        <img src="img/motorcyclist.jpg" style="width: 110rem; height:30rem;">
+        <img src="images/motorcyclist.jpg" style="width: 110rem; height:30rem;">
     </div>
 </div>
 <div class="container text-center mt-5 mb-5" style="color: white;"
@@ -34,5 +20,3 @@
     ?>
 <script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-</body>
-</html>

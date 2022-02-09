@@ -1,6 +1,6 @@
 body
 {
-	background-color: aliceblue;
+	background-color: #444444;
 	
 }
 
@@ -93,6 +93,7 @@ body
 .headgear-text h1, .boots-text, .vest-text  h1
 {
 	font-family: century gothic;
+	color: #EEEEEE;
 }
 .log-logo
 {

@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>RG Headgear</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="icon" type="image/x-icon" href="images/brand logo/rglogo.ico">  
-  <style type="text/css">
-		<?php
-			include 'css/style.css';
-		?>
-	</style>
-  
-</head>
 
-
-
-<body>
 <?php
     include_once 'header.php'
 ?>
 <div class="jumbotron p-0 jbsize">
 		<div class="embed-responsive embed-responsive-16by9 jbsize">
 			<video loop muted autoplay preload="auto" class="jbsize">
-				<source src="img/ads.mp4" type="video/mp4" >
+				<source src="images/ads.mp4" type="video/mp4" >
 			</video>
 		</div>
 	</div>
@@ -75,7 +56,7 @@
             <img src="images/carousel/item4.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block mb-1">
                <p class="paragraph1">lorem ipsum</p>
-              <div class="slider-btn mb-3">
+              <div class="slider-btn mb-3 ">
                         <button class="btn carousel-btn">GET IT NOW!</button>
               </div>
             </div>
@@ -106,14 +87,17 @@
 
 </div>
 </div>
+
 <?php
         include_once 'footer.php'
 ?>
 
-
-
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script> 
 
-</body>
-</html>
+
+
+
+
+
+

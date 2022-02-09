@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Accessories</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<style type="text/css">
-		<?php
-			include 'css/style.css';
-		?>
-	</style>
-</head>
-<body>
+
     <?php
         include_once 'header.php'
     ?>
@@ -24,6 +11,7 @@
                     </div>
              </div>
          </div>
+         
     <div class="container-fluid">
         <div class="card">
 
@@ -31,7 +19,7 @@
 				<div class="col">
 					<h4>SHOCK ABSORBER</h4>
 				</div>
-				<div class="col">
+				<div class="col ">
 					<div class="row text-right">
 						<div class="col">
 						<a href="#"><h6>LoadMore</h6></a>
@@ -161,7 +149,8 @@
                 <div class="col border-left border-right">
                     <img class="img-fluid" src="images/items/accessories/mirror/SPAUTO Motorcycle Mirrors Rear View.jpg" style="width: 400px; height: 300px;">
                     <div class="item1 mt-2">
-                        <h6>SPAUTO Motorcycle Mirrors Rear View</h6>
+                        <h6>SPAUTO Motorcycle Mirrors Rear View</h6><div class="navbar__link-separator">
+</div>
                     </div>
                     <div class="row">
                         <div class="col">
@@ -337,7 +326,7 @@
             </div>
 		</div>
     </div>
-
+</div>
     <br>
     <br>
     <?php
@@ -346,5 +335,3 @@
 
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
